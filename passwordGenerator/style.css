@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-container{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input{
+  border: 0;
+  outline: none;
+  padding: 10px;
+  font-size: 24px;
+  background-color: transparent;
+  width: 85%;
+
+}
+
+.container h1{
+  margin-bottom: 10px;
+  color: aliceblue;
+  user-select: none;
+  text-align: center;
+}
+
+.container{
+  background-color: tomato;
+  padding: 60px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(111, 108, 108);
+}
+
+button{
+  padding: 15px 40px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  color: aliceblue;
+  background-color: green;
+  border: 1px solid transparent;
+}
+
+
+button:hover{
+  border: 1px solid black;
+}
+
+.copyAlert{
+  background-color: green;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+
+.active{
+  right: -250px;
+}
+
+.fa-copy{
+  font-size: 24px;
+  opacity: 30%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.fa-copy:hover{
+  opacity: 100%;
+}
+
+@media (max-width: 768px) {
+
+}
